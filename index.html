@@ -3,106 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hotel Recipe Menu</title>
+  <title>Anand Hotel Menu</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Anand Hotel Recipe Menu</h1>
+    <h1>Anand Hotel Menu</h1>
     <p>Delicious dishes made with love</p>
   </header>
 
+  <!-- Dish of the Day -->
+  <section class="dish-of-the-day">
+    <h2>🍽 Dish of the Day</h2>
+    <div class="featured-recipe"></div>
+  </section>
+
+  <!-- Category Navigation -->
+  <nav class="categories">
+    <button data-category="starters">Starters</button>
+    <button data-category="main-course">Main Course</button>
+    <button data-category="desserts">Desserts</button>
+    <button data-category="beverages">Beverages</button>
+  </nav>
+
+  <!-- Menu Section -->
   <section class="menu">
     <h2>Our Dishes</h2>
-    
-    <!-- Slider Container -->
-    <div class="slider">
-      <div class="recipes">
-        
-        <div class="recipe-card">
-          <img src="./assets/paneer.jpg" alt="Paneer Butter Masala">
-          <h3>Paneer Butter Masala</h3>
-          <ul>
-            <li>One of the most loved dishes among hostel students when they miss “ghar ka khana.”</li> 
-            <li>Creamy, buttery, and filling — a perfect break from regular hostel mess food.</li>
-            <li>Pairs well with chapati or rice, making it a comforting weekend treat.</li> 
-            <li>A dish students often look forward to on “special menu” days in the hostel mess.</li> 
-            <li>Brings a taste of restaurant-style food right to the hostel dining hall.</li>
-            <li>A favorite choice for birthday treats or hostel celebrations with friends</li>
-          </ul>
-        </div>
-
-        <div class="recipe-card">
-          <img src="./assets/chicken.jpg" alt="Chicken Biryani">
-          <h3>Chicken Biryani</h3>
-          <ul>
-            <li>A royal dish that instantly upgrades the hostel mess menu to a feast.</li>
-            <li>Fragrant basmati rice layered with juicy chicken and spices.</li>
-            <li>Perfect one-pot meal — filling and satisfying for hungry hostel nights.</li>
-            <li>Students eagerly wait for “Biryani Day” in the mess schedule.</li>
-            <li>Often shared among friends, making it a dish of bonding and celebration.</li>
-            <li>A hostel favorite for Sunday lunch or festive occasions.</li>
-          </ul>
-        </div>
-
-        <div class="recipe-card">
-          <img src="./assets/Veg-Hakka-Noodles.jpg" alt="Veg Noodles"> 
-          <h3>Veg Noodles</h3>
-          <ul>
-            <li>A quick and tasty favorite among hostel students for evening snacks.</li>
-            <li>Loaded with vegetables, making it both delicious and filling.</li>
-            <li>Easy to eat and share — perfect for late-night group study sessions.</li>
-            <li>Brings street-food vibes straight into the hostel mess.</li>
-            <li>Often the first choice when students crave something spicy and tangy.</li>
-            <li>A budget-friendly dish that never fails to satisfy hostel cravings.</li>
-          </ul>
-        </div>
-
-        <div class="recipe-card">
-          <img src="./assets/Fish-Curry.jpg" alt="Fish Curry">  
-          <h3>Fish Curry</h3>
-          <ul>
-            <li>A comforting dish that reminds coastal students of home-cooked meals.</li>
-            <li>Rich, tangy, and spicy — perfect with hot steamed rice in the hostel mess.</li>
-            <li>Brings a welcome change from the usual chicken or paneer dishes.</li>
-            <li>Often seen as a “special treat” on weekends or festive days in hostels.</li>
-            <li>Its homely flavor makes students feel less homesick during hostel life.</li>
-            <li>A favorite for those who crave authentic traditional taste even away from home.</li>
-          </ul>
-        </div>
-
-        <div class="recipe-card">
-          <img src="./assets/punjabi mutton curry.jpg" alt="Punjabi Mutton Curry">  
-          <h3>Punjabi Mutton Curry</h3>
-          <ul>
-            <li>A rich and spicy curry that hostel students eagerly look forward to.</li>
-            <li>Slow-cooked mutton with Punjabi spices makes it flavorful and hearty.</li>
-            <li>Perfect with naan or rice, making weekend meals extra special in the hostel.</li>
-            <li>Often seen as a “luxury dish” in the mess, usually served on festive occasions.</li>
-            <li>Fills the hostel dining hall with irresistible aroma and excitement.</li>
-            <li>A favorite among non-veg lovers craving a homestyle Punjabi taste.</li>
-          </ul>
-        </div>
-
-        <div class="recipe-card">
-          <img src="./assets/Gulab Jamun.jpg" alt="Gulab Jamun">  
-          <h3>Gulab Jamun</h3>
-          <ul>
-            <li>The most loved sweet dish among hostel students during celebrations.</li>
-            <li>Soft, spongy, and soaked in sugar syrup — a perfect end to any meal.</li>
-            <li>Usually served in the mess on festivals, birthdays, or special dinners.</li>
-            <li>Brings a smile to every student’s face after a long tiring day.</li>
-            <li>A symbol of hostel bonding — often shared with friends in groups.</li>
-            <li>Gives hostel food a festive and homely touch instantly.</li>
-          </ul>
-        </div>
-
-      </div>
-    </div>
+    <div class="recipes"></div>
   </section>
 
   <footer>
     <p>© 2025 Anand Hotel Recipe | All Rights Reserved</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
